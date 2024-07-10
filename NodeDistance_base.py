@@ -107,7 +107,7 @@ def simulate_requests(graph, num_requests):
     
     return requests, successful_requests, threshold
 
-# Example: Simulate 100 random requests
+# Simulation of 100-200 random requests
 num_requests = 200
 requests, successful_requests, threshold = simulate_requests(graph, num_requests)
 
